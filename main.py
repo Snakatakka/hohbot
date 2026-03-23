@@ -8,7 +8,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
 user = client.user
-hostRole = 1484317628230271189
+hostRole = 'INSERT HOST ROLE ID HERE'
 
 # Non Discord.py varibles
 listOfHosts = []
@@ -50,5 +50,5 @@ async def on_message(message):
             await message.channel.send('ERROR: Invalid command, use the command "hoh!help" to view a list of all commands!')
         
 
-
-client.run('nuh uh')
+# no way jose
+client.run(tokenID)
